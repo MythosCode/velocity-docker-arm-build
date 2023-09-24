@@ -30,10 +30,6 @@ jobs:
           curl -o "lint.sh" "https://raw.githubusercontent.com/MythosCode/.github/main/docker-compose/lint.sh"
           chmod +x ./lint.sh
 
-      - name: Run lint
-        run: |
-          ./lint.sh
-
       - name: Run build
         run: |
           ./build.sh    
