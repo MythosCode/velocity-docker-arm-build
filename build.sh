@@ -18,7 +18,7 @@ if curl -O $VELOCITY_JAR_URL; then
     sudo docker build -t velocity:${VERSION} .
     sudo docker tag velocity:${VERSION} mythoscode/velocity:${VERSION}
     sudo docker push mythoscode/velocity:${VERSION}
-
+    sudo docker image rm velocity:${VERSION} mythoscode/velocity:${VERSION}
     exit 0
 else
     echo "failed to download the velocity from $VELOCITY_JAR_URL"
