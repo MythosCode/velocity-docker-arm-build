@@ -1,4 +1,4 @@
-VELOCITY_JAR_URL=https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/269/downloads/velocity-3.2.0-SNAPSHOT-269.jar
+VELOCITY_JAR_URL=https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/276/downloads/velocity-3.2.0-SNAPSHOT-276.jar
 
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 DOCKER_USERNAME DOCKER_PASSWORD"
