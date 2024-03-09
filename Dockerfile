@@ -1,4 +1,4 @@
-FROM arm64v8/eclipse-temurin:17-jre-jammy
+FROM arm64v8/eclipse-temurin:21-jre-jammy
   
 LABEL org.opencontainers.image.vendor="Dockcenter"
 LABEL org.opencontainers.image.title="Velocity"
